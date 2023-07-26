@@ -11,3 +11,7 @@ A Python program, made with the `aviationstack` API, to track a flight with noth
 - [aviationstack API](https://aviationstack.com/product)
 
 Remember to paste your API key where indicated and ensure you have the necessary permissions to access it.
+
+## Implementation
+
+Run `python3 FlightTracker.py` in a terminal if you have Python 3.
