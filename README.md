@@ -2,15 +2,15 @@
 
 ## About
 
-A Python program, made with @SmashedFrenzy16's help using the `aviationstack` API, to track a flight with nothing more than its number and departing date!
+A Python program to track a flight with nothing more than its number and departure date!
 
 ## Prerequisites
 
 - Python 3
 - `requests` module (installed with `pip install requests`)
-- [aviationstack API](https://aviationstack.com/product)
+- `beautifulsoup4` module (installed with `pip install beautifulsoup4`)
 
-Remember to paste your API key where indicated and ensure you have the necessary permissions to access it.
+Please remember to input your flight details in the driver code where indicated.
 
 ## Implementation
 
