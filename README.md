@@ -2,7 +2,7 @@
 
 ## About
 
-A Python program to track a flight with nothing more than its number and departure date!
+A Python program to track a flight with its number and departure date.
 
 ## Prerequisites
 
