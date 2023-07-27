@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-
 def get_flight_details(airline_code, flight_number, date, month, year):
    def get_data(url):
       response = requests.get(url)
@@ -48,7 +47,7 @@ def get_flight_status(soup):
          "div", class_="text-helper__TextHelper-sc-8bko4a-0 kbHzdx"
       )
    ]
-   print("Gate number:", gate_numbers[0])
+   print("Terminal:", gate_numbers[0])
    print("Status:", statuses[0])
    print(f"Flight timings: {time_statuses[0]} to {time_statuses[2]}")
 airline_code = 'BA' # Input parameters
