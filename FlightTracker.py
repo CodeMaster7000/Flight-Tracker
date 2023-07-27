@@ -48,9 +48,9 @@ def get_flight_status(soup):
          "div", class_="text-helper__TextHelper-sc-8bko4a-0 kbHzdx"
       )
    ]
-   print("Gate number: ", gate_numbers[0])
-   print("Status: ", statuses[0])
-   print(f"From: {time_statuses[0]} | To: {time_statuses[2]}")
+   print("Gate number:", gate_numbers[0])
+   print("Status:", statuses[0])
+   print(f"Flight timings: {time_statuses[0]} to {time_statuses[2]}")
 airline_code = 'BA' # Input parameters
 flight_number = '257' # Input parameters
 current_date = datetime.now()
